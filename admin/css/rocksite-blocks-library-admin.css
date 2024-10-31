@@ -1,0 +1,59 @@
+button[aria-label*="Blockfold-Blog-WordPress-Theme"] + .kb-pro-template + .kb-popover-pro-notice {
+
+    display: none !important;
+
+}
+
+.rocksite-page-wrapper {
+    padding: 30px;
+    background: white;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.rocksite-page-wrapper #col-right {
+    width: 50%;
+}
+
+.rocksite-page-wrapper #col-left {
+    width: 50%;
+}
+
+.rocksite-page-wrapper .notice {
+    display: none;
+}
+
+.rocksite-button-wrapper {
+    clear: both;
+}
+
+
+.rocksite-page-header {
+    margin-left: 50px;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+/*
+One CLiCk Mods
+ */
+.ocdi__gl-item:not([data-name="agency blockfold"]) {
+    position: relative;
+}
+
+.ocdi__gl-item:not([data-name="agency blockfold"]) .ocdi__gl-item-buttons .button-primary{
+    display: none!important;
+}
+.ocdi__gl-item:not([data-name="agency blockfold"]):before {
+    content: 'Premium';
+    display: inline-block;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
